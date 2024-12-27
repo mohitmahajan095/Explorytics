@@ -1,4 +1,4 @@
-# src/pyeda/utils/helpers.py
+# src/explorytics/utils/helpers.py
 import pandas as pd
 import numpy as np
 

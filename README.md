@@ -47,7 +47,7 @@ analyzer.visualizer.plot_correlation_matrix().show()
 
 ## Documentation
 
-The complete documentation is available [here](./explorytics_documentation.md). It includes details on:
+The complete documentation is available [here](./DOCUMENTATION.md). It includes details on:
 
 - Installation and setup
 - Usage examples

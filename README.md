@@ -54,6 +54,7 @@ The complete documentation is available [here](./DOCUMENTATION.md). It includes 
 - API references for key classes and methods
 - Advanced configuration options
 
+Try on [Google-Colab](https://colab.research.google.com/drive/1JH2ewdZeakqBptWbcuCf91L0sw9ZFB6Y?usp=sharing) <
 ## Examples
 
 Explore the `examples` folder for Jupyter notebooks showcasing various use cases, including:

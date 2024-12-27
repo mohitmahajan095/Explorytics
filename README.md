@@ -87,7 +87,9 @@ In versions 1.0, 1.1, and 1.2, we faced multiple issues with the packaging proce
    The `visualizations` and `helpers` modules were not included in the package, causing errors like:
    ```python
    ModuleNotFoundError: No module named 'explorytics.visualizations'
-
+#### Solution:
+ Upgrade to version 0.1.3
+ 
 ## License
 
 Explorytics is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.

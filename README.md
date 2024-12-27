@@ -75,7 +75,7 @@ We welcome contributions! If you'd like to contribute:
 Please ensure your code adheres to the existing style and includes tests for any new functionality.
 ## Issue Resolution: Versions 1.0, 1.1, and 1.2
 
-### ⚠️Warning: **Do not use versions 1.0, 1.1, or 1.2**
+### ⚠️Warning: **Do not use versions 1.0, 1.1, or 1.2 (if using any **upgrade** to version 0.1.3)**
 If you're using version 0.1.0, 1.1, or 1.2, **please upgrade** to **version 0.1.3** or later. These earlier versions had critical issues that resulted in incomplete installations and missing files. The package structure was not correctly bundled, leading to missing dependencies and modules that prevented users from fully utilizing the library.
 
 ### Problem Overview
@@ -87,8 +87,17 @@ In versions 1.0, 1.1, and 1.2, we faced multiple issues with the packaging proce
    The `visualizations` and `helpers` modules were not included in the package, causing errors like:
    ```python
    ModuleNotFoundError: No module named 'explorytics.visualizations'
-#### Solution:
- Upgrade to version 0.1.3
+2. **Incorrect Package Structure (Version 1.1)**:
+   Despite efforts to fix the structure, important directories such as core, visualizations, and utils were still missing in the final distribution.
+
+4. **Dependency Issues (Version 1.2)**:
+   There were problems with dependencies not being correctly listed in setup.py, causing compatibility issues with different Python environments.
+
+To resolve these issues, we took the following steps:
+1. Updated MANIFEST.in to Include All Files
+2. Manually Verified the Distribution
+3. Fixed Dependencies in setup.py
+4. Re-released as Version 0.1.3
  
 ## License
 

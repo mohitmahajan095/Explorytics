@@ -77,10 +77,10 @@ Please ensure your code adheres to the existing style and includes tests for any
 ## Issue Resolution: Versions 0.1.0, 0.1.1, and 0.1.2
 
 ### ⚠️Warning: **Do not use versions 0.1.0, 0.1.1, or 0.1.2 (if using any **upgrade** to version 0.1.4)**
-If you're using version 0.1.0, 1.1, or 1.2, **please upgrade** to **version 0.1.4** or later. These earlier versions had critical issues that resulted in incomplete installations and missing files. The package structure was not correctly bundled, leading to missing dependencies and modules that prevented users from fully utilizing the library.
+If you're using version 0.1.0, 0.1.1, or 0.1.2, **please upgrade** to **version 0.1.4** or later. These earlier versions had critical issues that resulted in incomplete installations and missing files. The package structure was not correctly bundled, leading to missing dependencies and modules that prevented users from fully utilizing the library.
 
 ### Problem Overview
-In versions  0.1.0, 1.1, and 1.2, we faced multiple issues with the packaging process, resulting in missing files such as visualizations and helper modules, and incorrect package structure. Here's a breakdown of the issues and their resolutions:
+In versions  0.1.0, 0.1.1, and 0.1.2, we faced multiple issues with the packaging process, resulting in missing files such as visualizations and helper modules, and incorrect package structure. Following were the issues and their resolutions:
 
 #### Issues:
 

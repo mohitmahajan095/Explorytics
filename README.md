@@ -74,9 +74,9 @@ We welcome contributions! If you'd like to contribute:
 5. Open a pull request.
 
 Please ensure your code adheres to the existing style and includes tests for any new functionality.
-## Issue Resolution: Versions 1.0, 1.1, and 1.2
+## Issue Resolution: Versions 0.1.0, 0.1.1, and 0.1.2
 
-### ⚠️Warning: **Do not use versions 1.0, 1.1, or 1.2 (if using any **upgrade** to version 0.1.4)**
+### ⚠️Warning: **Do not use versions 0.1.0, 0.1.1, or 0.1.2 (if using any **upgrade** to version 0.1.4)**
 If you're using version 0.1.0, 1.1, or 1.2, **please upgrade** to **version 0.1.4** or later. These earlier versions had critical issues that resulted in incomplete installations and missing files. The package structure was not correctly bundled, leading to missing dependencies and modules that prevented users from fully utilizing the library.
 
 ### Problem Overview

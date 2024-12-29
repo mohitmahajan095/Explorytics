@@ -84,14 +84,14 @@ In versions 1.0, 1.1, and 1.2, we faced multiple issues with the packaging proce
 
 #### Issues:
 
-1. **Missing Visualizations and Helper Files (Version 1.0)**:
+1. **Missing Visualizations and Helper Files (Version 0.1.0)**:
    The `visualizations` and `helpers` modules were not included in the package, causing errors like:
    ```python
    ModuleNotFoundError: No module named 'explorytics.visualizations'
-2. **Incorrect Package Structure (Version 1.1)**:
+2. **Incorrect Package Structure (Version 0.1.1)**:
    Despite efforts to fix the structure, important directories such as core, visualizations, and utils were still missing in the final distribution.
 
-4. **Dependency Issues (Version 1.2)**:
+4. **Dependency Issues (Version 0.1.2)**:
    There were problems with dependencies not being correctly listed in setup.py, causing compatibility issues with different Python environments.
 
 To resolve these issues, we took the following steps:

@@ -1,4 +1,11 @@
 # explorytics/__init__.py
+
+# Explorytics: A Python library for effortless exploratory data analysis.
+# Copyright (c) 2025 Mohit Mahajan
+#
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 from .src.explorytics.core.analyzer import DataAnalyzer
 from .src.explorytics.visualizations.plots import DataVisualizer
 

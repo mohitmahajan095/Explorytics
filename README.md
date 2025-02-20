@@ -94,11 +94,7 @@ In versions  0.1.0, 0.1.1, and 0.1.2, we faced multiple issues with the packagin
 4. **Dependency Issues (Version 0.1.2)**:
    There were problems with dependencies not being correctly listed in setup.py, causing compatibility issues with different Python environments.
 
-To resolve these issues, we took the following steps:
-1. Updated MANIFEST.in to Include All Files
-2. Manually Verified the Distribution
-3. Fixed Dependencies in setup.py
-4. Re-released as Version 0.1.3
+If you are facing this issue, we suggest you **"upgrade to version 0.1.4 or later"** to resolve this issues.
  
 ## License
 
